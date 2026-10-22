@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Liceno website",
+    "url": "https://liceno.io",
+    "icon": "https://icons.duckduckgo.com/ip3/liceno.io.ico",
+    "slug": "liceno-website",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 265,
+    "timeDay": 265,
+    "timeWeek": 265,
+    "timeMonth": 265,
+    "timeYear": 265,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Liceno beta",
+    "url": "https://beta.liceno.io",
+    "icon": "https://icons.duckduckgo.com/ip3/beta.liceno.io.ico",
+    "slug": "liceno-beta",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 533,
+    "timeDay": 533,
+    "timeWeek": 533,
+    "timeMonth": 533,
+    "timeYear": 533,
+    "dailyMinutesDown": {}
+  }
+]

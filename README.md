@@ -13,4 +13,4 @@ Public uptime checks and status page for [Liceno](https://liceno.io), powered by
 <!-- Do not edit this manually, your changes will be overwritten -->
 <!--end: status pages-->
 
-Configuration lives in [`.upptimerc.yml`](.upptimerc.yml); the workflows under `.github/workflows` are generated from it and pin every action to a commit.
+Configuration lives in [`.upptimerc.yml`](.upptimerc.yml). The workflows under `.github/workflows` come from Upptime v1.46.2. Each pins every action to a commit and declares its token permissions, because the organization keeps the default workflow token read-only. The template's setup and update workflows are removed, so a change to a workflow is made by hand.

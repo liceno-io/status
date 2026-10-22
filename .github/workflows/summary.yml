@@ -15,6 +15,9 @@
 
 
 name: Summary CI
+# The liceno-io organization keeps the default workflow token read-only.
+permissions:
+  contents: write
 on:
   schedule:
     - cron: "0 0 * * *"

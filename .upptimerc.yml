@@ -1,31 +1,31 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: liceno-io
+repo: status
+# No Actions secret is exposed to the monitor; the generated workflows carry SECRETS_CONTEXT '{}'.
+secrets: []
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Liceno website
+    url: https://liceno.io
+    expectedStatusCodes:
+      - 200
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/liceno-io/status)"
+  - name: Liceno beta
+    url: https://beta.liceno.io
+    expectedStatusCodes:
+      - 200
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/liceno-io/status)"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.liceno.io
+  name: Liceno Status
+  introTitle: "**Liceno Status**: real-time uptime of Liceno's public services."
+  introMessage: This status page uses real-time data from our [GitHub repository](https://github.com/liceno-io/status).
   navbar:
     - title: Status
       href: /
+    - title: Liceno
+      href: https://liceno.io
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
